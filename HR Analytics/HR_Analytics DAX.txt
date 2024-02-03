@@ -1,0 +1,5 @@
+source : https://www.youtube.com/watch?v=j4xlVLgsmNQ&list=PLdOKnrf8EcP2ivbQIcVuknjdlUqkoprKo&index=2
+
+DAX formula:
+Attrition Rate = SUM(HR_Analytics[AttritionCount])/SUM(HR_Analytics[EmployeeCount])
+

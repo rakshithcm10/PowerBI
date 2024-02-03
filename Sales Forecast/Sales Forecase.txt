@@ -1,0 +1,9 @@
+source : https://www.youtube.com/watch?v=fZn83JRt4Nk&list=PLdOKnrf8EcP2ivbQIcVuknjdlUqkoprKo&index=3
+
+DAX Formula:
+
+new table:
+ SalesForecast = SUMMARIZE('SuperStore_Sales_Dataset',SuperStore_Sales_Dataset[Order Date], "Total Sale", SUM(SuperStore_Sales_Dataset[Sales]))
+
+new column:
+Avg Delivery = DATEDIFF('SuperStore_Sales_Dataset'[Order Date],'SuperStore_Sales_Dataset'[Ship Date],DAY)

@@ -1,0 +1,6 @@
+PG BG : 105959
+Container/Shape BG : 1D1D2E
+Containers Border : 105959
+Buttons and other elemnts : D0CF1D
+Highlights : E76B4C
+visuals : F0E36F
